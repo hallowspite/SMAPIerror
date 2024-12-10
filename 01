@@ -1,0 +1,378 @@
+[13:09:28 INFO  SMAPI] SMAPI 4.1.8 with Stardew Valley 1.6.14 build 24317 on Unix 6.5.0.22
+[13:09:28 INFO  SMAPI] Mods go here: ~/.local/share/Steam/steamapps/common/Stardew Valley/Mods
+[13:09:28 TRACE SMAPI] Log started at 2024-12-10T02:09:28 UTC
+[13:09:34 DEBUG SMAPI] Waiting for game to launch...
+[13:09:35 DEBUG SMAPI] Loading mod metadata...
+[13:09:35 DEBUG SMAPI] Loading mods...
+[13:09:36 TRACE SMAPI]    LovedLabels (from Mods/LovedLabels/LovedLabels.dll, ID: Advize.LovedLabels, assembly version: 1.0.0)...
+[13:09:36 TRACE SMAPI]       Failed: marked 'assume broken' in SMAPI's internal compatibility list for versions up to 2.2.1-unofficial.2-pathoschild: no reason given.
+[13:09:36 TRACE SMAPI]    Lookup Anything (from Mods/LookupAnything/LookupAnything.dll, ID: Pathoschild.LookupAnything, assembly version: 1.46.2)...
+[13:09:36 TRACE SMAPI]    CJB Item Spawner (from Mods/CJBItemSpawner/CJBItemSpawner.dll, ID: CJBok.ItemSpawner, assembly version: 2.5.1)...
+[13:09:36 TRACE SMAPI]    DynamicNightTime (from Mods/DynamicNightTime/DynamicNightTime.dll, ID: knakamura.dynamicnighttime, assembly version: 1.3.16)...
+[13:09:36 TRACE SMAPI]       Detected game patcher in assembly DynamicNightTime.dll.
+[13:09:36 TRACE SMAPI]       Detected direct console access (System.Console type) in assembly DynamicNightTime.dll.
+[13:09:36 TRACE SMAPI]    CJB Cheats Menu (from Mods/CJBCheatsMenu/CJBCheatsMenu.dll, ID: CJBok.CheatsMenu, assembly version: 1.37.1)...
+[13:09:36 TRACE SMAPI]    Content Patcher (from Mods/ContentPatcher/ContentPatcher.dll, ID: Pathoschild.ContentPatcher, assembly version: 2.4.4)...
+[13:09:37 TRACE SMAPI]    GNMTokens (from Mods/GNMTokens/GNMTokens.dll, ID: Hana.GNMTokens, assembly version: 1.0.0)...
+[13:09:37 TRACE SMAPI]    Generic Mod Config Menu (from Mods/GenericModConfigMenu/GenericModConfigMenu.dll, ID: spacechase0.GenericModConfigMenu, assembly version: 1.14.1)...
+[13:09:37 TRACE SMAPI]    Expanded Preconditions Utility (from Mods/ExpandedPreconditionsUtility/ExpandedPreconditionsUtility.dll, ID: Cherry.ExpandedPreconditionsUtility, assembly version: 1.0.0)...
+[13:09:37 TRACE SMAPI]       Rewrote ExpandedPreconditionsUtility.dll for OS...
+[13:09:37 TRACE SMAPI]       Rewrote ExpandedPreconditionsUtility.dll to fix Character.getTileLocation method, Farmer.get_Items method...
+[13:09:37 TRACE SMAPI]       Rewrote ExpandedPreconditionsUtility.dll to fix 32-bit architecture...
+[13:09:37 TRACE SMAPI]       Broken code in ExpandedPreconditionsUtility.dll: reference to StardewValley.Farmer.eventsSeen (field returns NetStringHashSet, not NetIntList), reference to StardewValley.Farmer.mailReceived (field returns NetStringHashSet, not NetStringList).
+[13:09:37 TRACE SMAPI]    Farm Type Manager (from Mods/FarmTypeManager/FarmTypeManager.dll, ID: Esca.FarmTypeManager, assembly version: 1.24.0)...
+[13:09:37 TRACE SMAPI]       Detected game patcher in assembly FarmTypeManager.dll.
+[13:09:37 TRACE SMAPI]    Stardew Valley Expanded Farm Type Manager (from Mods/Stardew Valley Expanded/[FTM] Stardew Valley Expanded, ID: FlashShifter.SVE-FTM) [content pack]...
+[13:09:37 TRACE SMAPI]    Stardew Valley Expanded Code (from Mods/Stardew Valley Expanded/Stardew Valley Expanded Code/StardewValleyExpanded.dll, ID: FlashShifter.SVECode, assembly version: 1.15.0)...
+[13:09:37 TRACE SMAPI]       Detected game patcher in assembly StardewValleyExpanded.dll.
+[13:09:37 TRACE SMAPI]    Stardew Valley Expanded (from Mods/Stardew Valley Expanded/[CP] Stardew Valley Expanded, ID: FlashShifter.StardewValleyExpandedCP) [content pack]...
+[13:09:37 TRACE SMAPI]    Seasonal Cute Characters (from Mods/[CP] Seasonal Cute Characters, ID: Poltergeister.SeasonalCuteCharacters) [content pack]...
+[13:09:37 TRACE SMAPI]    Hats Won't Mess Up Hair (from Mods/[CP] Hats Won't Mess Up Hair, ID: misatse1019.HatsWontMessUpHair) [content pack]...
+[13:09:37 TRACE SMAPI]    Part of the Community (from Mods/PartOfTheCommunity/PartOfTheCommunity.dll, ID: SpaceBaby.PartOfTheCommunity, assembly version: 1.1.0)...
+[13:09:37 TRACE SMAPI]    Automate (from Mods/Automate/Automate.dll, ID: Pathoschild.Automate, assembly version: 2.3.1)...
+[13:09:37 TRACE SMAPI]    StardewHack (from Mods/StardewHack/StardewHack.dll, ID: bcmpinc.StardewHack, assembly version: 7.4.0)...
+[13:09:37 TRACE SMAPI]       Detected game patcher in assembly StardewHack.dll.
+[13:09:37 TRACE SMAPI]    SkipFishingMinigame (from Mods/SkipFishingMinigameDotnet5/SkipFishingMinigame.dll, ID: DewMods.StardewValleyMods.SkipFishingMinigame, assembly version: 1.0.0)...
+[13:09:37 TRACE SMAPI]    Harvest With Scythe (from Mods/HarvestWithScythe/HarvestWithScythe.dll, ID: bcmpinc.HarvestWithScythe, assembly version: 7.4.0)...
+[13:09:37 TRACE SMAPI]       Detected game patcher in assembly HarvestWithScythe.dll.
+[13:09:37 TRACE SMAPI]    Pony Weight Loss Program (from Mods/PonyWeightLossProgram/PonyWeightLossProgram.dll, ID: BadNetCode.PonyWeightLossProgram, assembly version: 1.0.0)...
+[13:09:37 TRACE SMAPI]    Destroyable Bushes (from Mods/DestroyableBushes/DestroyableBushes.dll, ID: Esca.DestroyableBushes, assembly version: 1.4.5)...
+[13:09:37 TRACE SMAPI]       Detected game patcher in assembly DestroyableBushes.dll.
+[13:09:37 TRACE SMAPI]    Show Birthdays (from Mods/ShowBirthdays/ShowBirthdays.dll, ID: Traktori.ShowBirthdays, assembly version: 1.0.0)...
+[13:09:37 TRACE SMAPI]       Rewrote ShowBirthdays.dll to fix IClickableMenu.drawHoverText method, Utility.getAllCharacters method, Utility.isFestivalDay method...
+[13:09:37 TRACE SMAPI]       Rewrote ShowBirthdays.dll to fix Game1.currentSeason (field => property)...
+[13:09:37 TRACE SMAPI]    Visible Fish (from Mods/VisibleFish/showFishInWater.dll, ID: shekurika.WaterFish, assembly version: 1.0.0)...
+[13:09:37 TRACE SMAPI]       Rewrote showFishInWater.dll to fix ArgUtility.TryGet method, ArgUtility.TryGetFloat method, ArgUtility.TryGetInt method, ItemQueryContext..ctor method...
+[13:09:37 TRACE SMAPI]       Detected game patcher in assembly showFishInWater.dll.
+[13:09:37 TRACE SMAPI]    Convenient Inventory (from Mods/ConvenientInventory/ConvenientInventory.dll, ID: gaussfire.ConvenientInventory, assembly version: 1.0.0)...
+[13:09:37 TRACE SMAPI]       Rewrote ConvenientInventory.dll to fix IClickableMenu.drawToolTip (added missing optional parameters)...
+[13:09:37 TRACE SMAPI]       Detected game patcher in assembly ConvenientInventory.dll.
+[13:09:37 TRACE SMAPI]    AutomaticGates (from Mods/AutomaticGates/AutomaticGates.dll, ID: Rakiin.AutomaticGates, assembly version: 1.0.0)...
+[13:09:37 TRACE SMAPI]    Save Backup (from Mods/SaveBackup/SaveBackup.dll, ID: SMAPI.SaveBackup, assembly version: 4.1.8)...
+[13:09:37 TRACE SMAPI]    SpaceCore (from Mods/SpaceCore/SpaceCore.dll, ID: spacechase0.SpaceCore, assembly version: 1.27.0)...
+[13:09:37 TRACE SMAPI]       Loading assembly 'SpaceCore.Content.Parser.dll'...
+[13:09:37 TRACE SMAPI]       Loading assembly 'SpaceCore.Content.Engine.dll'...
+[13:09:37 TRACE SMAPI]       Detected game patcher in assembly SpaceCore.dll.
+[13:09:37 TRACE SMAPI]       Detected possible save serializer change (StardewValley.SaveGame.farmerSerializer field, StardewValley.SaveGame.locationSerializer field, StardewValley.SaveGame.serializer field) in assembly SpaceCore.dll.
+[13:09:37 TRACE SMAPI]       Loading assembly 'SpaceCore.dll'...
+[13:09:37 TRACE SMAPI]    Horse Flute Anywhere (from Mods/HorseFluteAnywhere/HorseFluteAnywhere.dll, ID: Pathoschild.HorseFluteAnywhere, assembly version: 1.2.3)...
+[13:09:37 TRACE SMAPI]       Detected game patcher in assembly HorseFluteAnywhere.dll.
+[13:09:37 TRACE SMAPI]    Friends Forever (from Mods/FriendsForever/FriendsForever.dll, ID: IsaacS.FriendsForever, assembly version: 0.0.0)...
+[13:09:37 TRACE SMAPI]       Rewrote FriendsForever.dll for OS...
+[13:09:37 TRACE SMAPI]       Rewrote FriendsForever.dll to fix Utility.getAllCharacters method...
+[13:09:37 TRACE SMAPI]       Rewrote FriendsForever.dll to fix 32-bit architecture...
+[13:09:37 TRACE SMAPI]    Experience Bars (from Mods/ExperienceBars/ExperienceBars.dll, ID: spacechase0.ExperienceBars, assembly version: 1.4.5)...
+[13:09:38 TRACE SMAPI]    Tractor Mod (from Mods/TractorMod/TractorMod.dll, ID: Pathoschild.TractorMod, assembly version: 4.20.2)...
+[13:09:38 TRACE SMAPI]    Ridgeside Village (SMAPI component) (from Mods/Ridgeside Village/RidgesideVillage/RidgesideVillage.dll, ID: Rafseazz.RidgesideVillage, assembly version: 1.0.0)...
+[13:09:38 TRACE SMAPI]       Detected game patcher in assembly RidgesideVillage.dll.
+[13:09:38 TRACE SMAPI]    Custom Companions (from Mods/CustomCompanions/CustomCompanions.dll, ID: PeacefulEnd.CustomCompanions, assembly version: 5.0.0)...
+[13:09:38 TRACE SMAPI]       Detected game patcher in assembly CustomCompanions.dll.
+[13:09:38 TRACE SMAPI]    Ridgeside Village (Custom Companions component) (from Mods/Ridgeside Village/[CC] Ridgeside Village, ID: Rafseazz.RSVCC) [content pack]...
+[13:09:38 TRACE SMAPI]    Ridgeside Village (Farm Type Manager component) (from Mods/Ridgeside Village/[FTM] Ridgeside Village, ID: Rafseazz.RSVFTM) [content pack]...
+[13:09:38 TRACE SMAPI]    NPC Map Locations (from Mods/NPCMapLocations/NPCMapLocations.dll, ID: Bouhm.NPCMapLocations, assembly version: 3.2.2)...
+[13:09:38 TRACE SMAPI]    Ridgeside Village (Content Patcher component) (from Mods/Ridgeside Village/[CP] Ridgeside Village, ID: Rafseazz.RSVCP) [content pack]...
+[13:09:38 TRACE SMAPI]    Fast Animations (from Mods/FastAnimations/FastAnimations.dll, ID: Pathoschild.FastAnimations, assembly version: 1.13.5)...
+[13:09:38 TRACE SMAPI]    Yet Another Auto Watering (from Mods/YetAnotherAutoWatering/YetAnotherAutoWatering.dll, ID: zhuoyun233.YetAnotherAutoWatering, assembly version: 1.0.0)...
+[13:09:38 TRACE SMAPI]    Daily Tasks Report Plus (from Mods/Daily Tasks Report Plus/DailyTasksReportPlus.dll, ID: Prism99.DailyTasksReportPlus, assembly version: 1.5.1)...
+[13:09:38 TRACE SMAPI]       Rewrote DailyTasksReportPlus.dll to fix NetInt.op_Implicit method...
+[13:09:38 TRACE SMAPI]    Elle's Seasonal Buildings (from Mods/[CP] Elle's Seasonal Buildings, ID: Elle.SeasonalBuildings) [content pack]...
+[13:09:38 TRACE SMAPI]    Better Artisan Good Icons (from Mods/BetterArtisanGoodIcons/BetterArtisanGoodIcons.dll, ID: cat.betterartisangoodicons, assembly version: 1.0.0)...
+[13:09:38 TRACE SMAPI]       Rewrote BetterArtisanGoodIcons.dll for OS...
+[13:09:38 TRACE SMAPI]       Rewrote BetterArtisanGoodIcons.dll to fix Character.getStandingY method, Game1.isDarkOut method...
+[13:09:38 TRACE SMAPI]       Rewrote BetterArtisanGoodIcons.dll to fix 32-bit architecture...
+[13:09:38 TRACE SMAPI]       Detected game patcher in assembly BetterArtisanGoodIcons.dll.
+[13:09:38 TRACE SMAPI]       Broken code in BetterArtisanGoodIcons.dll: reference to Harmony.HarmonyInstance.Create (no such method), reference to Harmony.HarmonyInstance.Patch (no such method), reference to Harmony.HarmonyMethod..ctor (no such constructor), reference to StardewModdingAPI.IContentHelper.Load (no such method), reference to StardewModdingAPI.IContentPack.LoadAsset (no such method), reference to StardewModdingAPI.IModHelper.get_Content (no such property), reference to StardewValley.Game1.objectInformation (no such field), reference to StardewValley.Object.honeyType (no such field), reference to StardewValley.Object.preservedParentSheetIndex (field returns NetString, not NetInt), reference to StardewValley.Objects.Furniture.furnitureTexture (no such field).
+[13:09:38 TRACE SMAPI]       Loading assembly 'BetterArtisanGoodIcons.dll' (rewritten)...
+[13:09:38 TRACE SMAPI]    TimeSpeed (from Mods/TimeSpeed/TimeSpeed.dll, ID: cantorsdust.TimeSpeed, assembly version: 2.7.9)...
+[13:09:38 TRACE SMAPI]    Frontier Farm (from Mods/Frontier Farm/[CP] Frontier Farm, ID: flashshifter.FrontierFarm) [content pack]...
+[13:09:38 TRACE SMAPI]    Frontier Farm Forage Locations (from Mods/Frontier Farm/[FTM] Frontier Farm, ID: FlashShifter.FrontierFarmFTM) [content pack]...
+[13:09:38 TRACE SMAPI]    Bigger Backpack (from Mods/BiggerBackpack/BiggerBackpack.dll, ID: spacechase0.BiggerBackpack, assembly version: 7.3.0)...
+[13:09:38 TRACE SMAPI]       Detected game patcher in assembly BiggerBackpack.dll.
+[13:09:38 TRACE SMAPI]    faster_horse (from Mods/faster_horse/faster_horse.dll, ID: kibbe.faster_horse, assembly version: 1.0.0)...
+[13:09:38 TRACE SMAPI]    Simple Crop Label (from Mods/SimpleCropLabel/SimpleCropLabel.dll, ID: SimpleCropLabel, assembly version: 0.0.0)...
+[13:09:38 TRACE SMAPI]    Canon-Friendly Dialogue Expansion (from Mods/[CP] Canon Friendly Dialogue Expansion, ID: gizzymo.canonfriendlyexpansion) [content pack]...
+[13:09:38 TRACE SMAPI]    Console Commands (from Mods/ConsoleCommands/ConsoleCommands.dll, ID: SMAPI.ConsoleCommands, assembly version: 4.1.8)...
+[13:09:38 TRACE SMAPI]    Seasonal Cute Characters SVE (from Mods/[CP] Seasonal Cute Characters SVE, ID: Poltergeister.SeasonalCuteSpritesSVE) [content pack]...
+[13:09:38 TRACE SMAPI]    Shop Tile Framework (from Mods/ShopTileFramework/ShopTileFramework.dll, ID: Cherry.ShopTileFramework, assembly version: 1.0.10)...
+[13:09:38 TRACE SMAPI]    SkullCavernElevator (from Mods/SkullCavernElevator/SkullCavernElevator.dll, ID: SkullCavernElevator, assembly version: 1.6.0)...
+[13:09:38 TRACE SMAPI]    Skip Intro (from Mods/SkipIntro/SkipIntro.dll, ID: Pathoschild.SkipIntro, assembly version: 1.9.21)...
+[13:09:38 INFO  SMAPI] Loaded 39 mods:
+[13:09:38 INFO  SMAPI]    Automate 2.3.1 by Pathoschild | Lets you automate crafting machines, fruit trees, and more by connecting them to chests.
+[13:09:38 INFO  SMAPI]    AutomaticGates 2.5.4 by Rakiin aKa ScheKaa | Opens and closes gates automatically
+[13:09:38 INFO  SMAPI]    Bigger Backpack 7.3.0 by spacechase0, yoseiri, bcmpinc | Adds another backpack size.
+[13:09:38 INFO  SMAPI]    CJB Cheats Menu 1.37.1 by CJBok and Pathoschild | Simple in-game cheats menu!
+[13:09:38 INFO  SMAPI]    CJB Item Spawner 2.5.1 by CJBok and Pathoschild | Simple in-game item spawner!
+[13:09:38 INFO  SMAPI]    Console Commands 4.1.8 by SMAPI | Adds SMAPI console commands that let you manipulate the game.
+[13:09:38 INFO  SMAPI]    Content Patcher 2.4.4 by Pathoschild | Loads content packs which edit game data, images, and maps without changing the game files.
+[13:09:38 INFO  SMAPI]    Convenient Inventory 1.5.2 by gaussfire | Adds convenience features to the player's inventory, such as quick stack to nearby chests and favorited items.
+[13:09:38 INFO  SMAPI]    Custom Companions 5.0.0 by PeacefulEnd | Framework for creating custom entities that can be spawned on maps or follow you around in Stardew Valley.
+[13:09:38 INFO  SMAPI]    Daily Tasks Report Plus 1.5.2 by Prism 99 | Shows information about some daily tasks in your farm
+[13:09:38 INFO  SMAPI]    Destroyable Bushes 1.4.5 by Esca | Allows the player to destroy bushes with an axe.
+[13:09:38 INFO  SMAPI]    DynamicNightTime 1.3.16-beta by Sakorona | Sets the night time dynamically.
+[13:09:38 INFO  SMAPI]    Experience Bars 1.4.5 by spacechase0 | Shows experience bars in the top-left corner.
+[13:09:38 INFO  SMAPI]    Farm Type Manager 1.24.0 by Esca | Allows custom spawning of content from each farm type: forage, large objects, ore, and monsters
+[13:09:38 INFO  SMAPI]    Fast Animations 1.13.5 by Pathoschild | Speeds up many animations in the game (configurable).
+[13:09:38 INFO  SMAPI]    faster_horse 1.3.0 by kibbe | Increases horse speed.
+[13:09:38 INFO  SMAPI]    Friends Forever 1.2.3 by Isaac S. | Makes it so friendship levels never decay!
+[13:09:38 INFO  SMAPI]    Generic Mod Config Menu 1.14.1 by spacechase0 | Adds an in-game UI to edit other mods' config options (for mods which support it).
+[13:09:38 INFO  SMAPI]    GNMTokens 3.2.0 by Hana | Provides Content Patcher Tokens for customizable pronouns and other language.
+[13:09:38 INFO  SMAPI]    Harvest With Scythe 7.4.0 by bcmpinc | Allows you to harvest all crops and forage using the scythe. They can also still be plucked.
+[13:09:38 INFO  SMAPI]    Horse Flute Anywhere 1.2.3 by Pathoschild | Summon your horse anywhere at the press of a button.
+[13:09:38 INFO  SMAPI]    Lookup Anything 1.46.2 by Pathoschild | View metadata about anything by pressing a button.
+[13:09:38 INFO  SMAPI]    NPC Map Locations 3.2.2 by Bouhm | Shows NPCs and farmers on a modified map page for accurate tracking.
+[13:09:38 INFO  SMAPI]    Part of the Community 1.2.0 by Nikki864 and Brandon Marquis Markail Green (Space Baby) | Lets you increase friendship by supporting the community.
+[13:09:38 INFO  SMAPI]    Pony Weight Loss Program 1.0.0 by BadNetCode | Allows horses to pass vertically through single tile openings
+[13:09:38 INFO  SMAPI]    Ridgeside Village (SMAPI component) 2.5.17 by Rafseazz | Ridgeside Village SMAPI and Harmony Component
+[13:09:38 INFO  SMAPI]    Save Backup 4.1.8 by SMAPI | Automatically backs up all your saves once per day into its folder.
+[13:09:38 INFO  SMAPI]    Show Birthdays 1.3.0 by Traktori | Allows the calendar to display multiple birthdays.
+[13:09:38 INFO  SMAPI]    Simple Crop Label 6.0.2 by TheMusketeer | Identify crops and trees on farm
+[13:09:38 INFO  SMAPI]    Skip Intro 1.9.21 by Pathoschild | Skips the game's loading intro.
+[13:09:38 INFO  SMAPI]    SkipFishingMinigame 0.7.4 by DewMods | When a fish bites, just hook the fish and skip the bobber bar minigame
+[13:09:38 INFO  SMAPI]    SkullCavernElevator 1.6.2 by lestoph | Elevator for the Skull Cavern
+[13:09:38 INFO  SMAPI]    SpaceCore 1.27.0 by spacechase0 | The space-iest of cores. (Framework mod)
+[13:09:38 INFO  SMAPI]    Stardew Valley Expanded Code 1.15.7 by FlashShifter, Esca, super-aardvark, and kittycatcasey | Adds coded elements to the game
+[13:09:38 INFO  SMAPI]    StardewHack 7.4.0 by bcmpinc | Transpilation library used by my other mods. Doesn't do much on its own.
+[13:09:38 INFO  SMAPI]    TimeSpeed 2.7.9 by cantorsdust and Pathoschild | Lets you control the flow of time in the game: speed it up, slow it down, or freeze it altogether.
+[13:09:38 INFO  SMAPI]    Tractor Mod 4.20.2 by Pathoschild | Lets you buy a tractor to more efficiently work with crops, clear twigs and rocks, etc.
+[13:09:38 INFO  SMAPI]    Visible Fish 0.4.2 by shekurika | Shows fish in the water
+[13:09:38 INFO  SMAPI]    Yet Another Auto Watering 1.2.1 by zhuoyun233 | Automatically watering your crops, compatible with 1.6 version
+
+[13:09:38 INFO  SMAPI] Loaded 12 content packs:
+[13:09:38 INFO  SMAPI]    Canon-Friendly Dialogue Expansion 3.0.5 by gizzymo (dialogue), WitchWeed (coding) | for Content Patcher | Adds about 4200 new lines of dialogue across all 34 characters who have a heart level
+[13:09:38 INFO  SMAPI]    Elle's Seasonal Buildings 1.3.5 by Elle/Junimods | for Content Patcher | A replacement for all buildings on your farm for each season!
+[13:09:38 INFO  SMAPI]    Frontier Farm 1.15.7 by FlashShifter | for Content Patcher | A massive custom farm map for Stardew Valley Expanded.
+[13:09:38 INFO  SMAPI]    Frontier Farm Forage Locations 1.15.7 by FlashShifter | for Farm Type Manager | Frontier Farm FTM Data.
+[13:09:38 INFO  SMAPI]    Hats Won't Mess Up Hair 1.5.0 by misatse1019 | for Content Patcher | Hats won't mess up your hair anymore.
+[13:09:38 INFO  SMAPI]    Ridgeside Village (Content Patcher component) 2.5.17 by Rafseazz | for Content Patcher | Adds Ridgeside Village to the game. A Stardew Valley Expansion mod.
+[13:09:38 INFO  SMAPI]    Ridgeside Village (Custom Companions component) 2.5.17 by Rafseazz | for Custom Companions | Custom Companions pack for Ridgeside Village.
+[13:09:38 INFO  SMAPI]    Ridgeside Village (Farm Type Manager component) 2.5.17 by Rafseazz | for Farm Type Manager | Adds forage and monsters to Ridgeside Village.
+[13:09:38 INFO  SMAPI]    Seasonal Cute Characters 6.0.1 by Poltergeister with assets by various artists | for Content Patcher | Seasonal outfits with the slightly cuter character aesthetic.
+[13:09:38 INFO  SMAPI]    Seasonal Cute Characters SVE 3.0.0 by Poltergeister | for Content Patcher | Makes the characters of Stardew Valley Expanded slightly cuter and gives them seasonal outfits.
+[13:09:38 INFO  SMAPI]    Stardew Valley Expanded 1.15.7 by FlashShifter | for Content Patcher | An expansive fanmade mod for ConcernedApe's Stardew Valley.
+[13:09:38 INFO  SMAPI]    Stardew Valley Expanded Farm Type Manager 1.15.7 by FlashShifter | for Farm Type Manager | This FTM pack is for SVE!
+
+[13:09:38 ERROR SMAPI]    Skipped mods
+[13:09:38 ERROR SMAPI]    --------------------------------------------------
+[13:09:38 ERROR SMAPI]       These mods could not be added to your game.
+
+[13:09:38 ERROR SMAPI]       - Expanded Preconditions Utility 1.0.1 because it's no longer compatible. Please check for a new version at https://smapi.io/mods
+
+[13:09:38 ERROR SMAPI]       - Better Artisan Good Icons 1.5.0 because it's no longer compatible. Please check for a new version at https://smapi.io/mods
+[13:09:38 ERROR SMAPI]       - LovedLabels 2.1.0 because it's no longer compatible. Please check for a version newer than 2.2.1-unofficial.2-pathoschild at https://smapi.io/mods
+[13:09:38 ERROR SMAPI]       - Shop Tile Framework 1.0.10-alpha.20241104 because it needs the 'Expanded Preconditions Utility' mod, which couldn't be loaded.
+
+[13:09:38 WARN  SMAPI]    Changed save serializer
+[13:09:38 WARN  SMAPI]    --------------------------------------------------
+[13:09:38 WARN  SMAPI]       These mods change the save serializer. They may corrupt your save files, or make them unusable if
+[13:09:38 WARN  SMAPI]       you uninstall these mods.
+
+[13:09:38 WARN  SMAPI]       - SpaceCore
+
+[13:09:38 INFO  SMAPI]    Patched game code
+[13:09:38 INFO  SMAPI]    --------------------------------------------------
+[13:09:38 INFO  SMAPI]       These mods directly change the game code. They're more likely to cause errors or bugs in-game; if
+[13:09:38 INFO  SMAPI]       your game has issues, try removing these first. Otherwise you can ignore this warning.
+
+[13:09:38 INFO  SMAPI]       - Bigger Backpack
+[13:09:38 INFO  SMAPI]       - Convenient Inventory
+[13:09:38 INFO  SMAPI]       - Custom Companions
+[13:09:38 INFO  SMAPI]       - Destroyable Bushes
+[13:09:38 INFO  SMAPI]       - DynamicNightTime
+[13:09:38 INFO  SMAPI]       - Farm Type Manager
+[13:09:38 INFO  SMAPI]       - Harvest With Scythe
+[13:09:38 INFO  SMAPI]       - Horse Flute Anywhere
+[13:09:38 INFO  SMAPI]       - Ridgeside Village (SMAPI component)
+[13:09:38 INFO  SMAPI]       - SpaceCore
+[13:09:38 INFO  SMAPI]       - Stardew Valley Expanded Code
+[13:09:38 INFO  SMAPI]       - StardewHack
+[13:09:38 INFO  SMAPI]       - Visible Fish
+
+[13:09:38 TRACE SMAPI]    Direct console access
+[13:09:38 TRACE SMAPI]    --------------------------------------------------
+[13:09:38 TRACE SMAPI]       These mods access the SMAPI console window directly. This is more fragile, and their output may not
+[13:09:38 TRACE SMAPI]       be logged by SMAPI.
+
+[13:09:38 TRACE SMAPI]       - DynamicNightTime
+
+[13:09:38 DEBUG SMAPI]    No update keys
+[13:09:38 DEBUG SMAPI]    --------------------------------------------------
+[13:09:38 DEBUG SMAPI]       These mods have no update keys in their manifest. SMAPI may not notify you about updates for these
+[13:09:38 DEBUG SMAPI]       mods. Consider notifying the mod authors about this problem.
+
+[13:09:38 DEBUG SMAPI]       - faster_horse
+
+[13:09:38 DEBUG SMAPI] Launching mods...
+[13:09:38 TRACE CJB Item Spawner] Started with menu key I.
+[13:09:38 TRACE DynamicNightTime] Postfixing Game1.getStartingToGetDarkTime with a postfix method
+[13:09:38 TRACE DynamicNightTime] Postfixing Game1.getTrulyDarkTime with postfix method
+[13:09:38 TRACE DynamicNightTime] Postfixing Gam1.isDarkOut with postfix method
+[13:09:38 TRACE DynamicNightTime] Postfixing Game1.UpdateGameClock with HarmonyMethod[declaringType=, methodName=, methodType=, argumentTypes=, priority=-1, before=, after=, reversePatchType=, debug=, nonVirtualDelegate=False]
+[13:09:38 TRACE SMAPI]    Found mod-provided API (DynamicNightTime.DynamicNightAPI).
+[13:09:39 TRACE CJB Cheats Menu] Started with menu key P.
+[13:09:39 TRACE SMAPI]    Found mod-provided API (ContentPatcher.Framework.ContentPatcherAPI).
+[13:09:39 TRACE game] Registered trigger action handler 'spacechase0.GenericModConfigMenu_OpenModConfig'.
+[13:09:39 TRACE Farm Type Manager] Applying Harmony patch "HarmonyPatch_DisableFurniturePickup": postfixing 3 implementations of SDV method "Furniture.canBeRemoved(Farmer)".
+[13:09:39 TRACE Farm Type Manager] Applying Harmony patch "HarmonyPatch_InstantKillImmunity": prefixing SDV method "HungryFrogCompanion.tongueReachedMonster".
+[13:09:39 TRACE Farm Type Manager] Applying Harmony patch "HarmonyPatch_OptimizeMonsterCode": prefixing SDV method "GameLocation.isCollidingPosition".
+[13:09:39 TRACE Farm Type Manager] Applying Harmony patch "HarmonyPatch_OptimizeMonsterCode": prefixing SDV method "Monster.findPlayer".
+[13:09:39 TRACE Farm Type Manager] Applying Harmony patch "HarmonyPatch_OptimizeMonsterCode": postfixing SDV method "Monster.findPlayer".
+[13:09:39 TRACE Farm Type Manager] Applying Harmony patch "HarmonyPatch_StunImmunity": prefixing SDV method "DebuffingProjectile.behaviorOnCollisionWithMonster".
+[13:09:39 TRACE Farm Type Manager] Applying Harmony patch "HarmonyPatch_ToggleExtraLoot": postfixing 12 implementations of SDV method "Monster.getExtraDropitems()".
+[13:09:39 TRACE Farm Type Manager] Applying Harmony patch "HarmonyPatch_UpdateCursorOverPlacedItem": postfixing SDV method "Utility.canGrabSomethingFromHere(int, int, Farmer)".
+[13:09:39 INFO  Stardew Valley Expanded Code] Starting Installation Checker...
+[13:09:39 INFO  Stardew Valley Expanded Code] (Installation Checker provided by shekurika and moe)
+[13:09:39 TRACE Stardew Valley Expanded Code] Number of dependencies to check: 5
+[13:09:39 TRACE Stardew Valley Expanded Code] InstallationChecker checking SMAPI...
+[13:09:39 TRACE Stardew Valley Expanded Code] SMAPI is loaded and up to date.
+[13:09:39 TRACE Stardew Valley Expanded Code] InstallationChecker checking Content Patcher...
+[13:09:39 TRACE Stardew Valley Expanded Code] Content Patcher is loaded and up to date.
+[13:09:39 TRACE Stardew Valley Expanded Code] InstallationChecker checking Farm Type Manager (FTM)...
+[13:09:39 TRACE Stardew Valley Expanded Code] Farm Type Manager (FTM) is loaded and up to date.
+[13:09:39 TRACE Stardew Valley Expanded Code] InstallationChecker checking [CP] Stardew Valley Expanded...
+[13:09:39 TRACE Stardew Valley Expanded Code] [CP] Stardew Valley Expanded is loaded and up to date.
+[13:09:39 TRACE Stardew Valley Expanded Code] InstallationChecker checking [FTM] Stardew Valley Expanded...
+[13:09:39 TRACE Stardew Valley Expanded Code] [FTM] Stardew Valley Expanded is loaded and up to date.
+[13:09:39 TRACE Stardew Valley Expanded Code] Number of missing mods: 0
+[13:09:39 TRACE Stardew Valley Expanded Code] Number of out of date mods: 0
+[13:09:39 INFO  Stardew Valley Expanded Code] Installation check completed. Everything seems fine!
+[13:09:39 TRACE Stardew Valley Expanded Code] Replacing sound cue "AmbientLocationSounds.engine" with a wrapper for volume control.
+[13:09:39 TRACE game] Registered event command: SVE_BadlandsDeath
+[13:09:39 TRACE Stardew Valley Expanded Code] Applying Harmony patch "DisableShadowAttacks": postfixing SDV method "AdventureGuild.killListLine(string, int, int)".
+[13:09:39 TRACE Stardew Valley Expanded Code] Applying Harmony Patch: HarmonyPatch_Mountain
+[13:09:39 TRACE Stardew Valley Expanded Code] Applying Harmony patch "HarmonyPatch_CustomFishPondColors": postfixing SDV method "FishPond.doFishSpecificWaterColoring()".
+[13:09:39 TRACE Stardew Valley Expanded Code] Applying Harmony patch "HarmonyPatch_FarmComputerLocations": postfixing SDV method "Farm.getTotalCrops()".
+[13:09:39 TRACE Stardew Valley Expanded Code] Applying Harmony patch "HarmonyPatch_FarmComputerLocations": postfixing SDV method "Farm.getTotalCropsReadyForHarvest()".
+[13:09:39 TRACE Stardew Valley Expanded Code] Applying Harmony patch "HarmonyPatch_FarmComputerLocations": postfixing SDV method "Farm.getTotalUnwateredCrops()".
+[13:09:39 TRACE Stardew Valley Expanded Code] Applying Harmony patch "HarmonyPatch_FarmComputerLocations": postfixing SDV method "Farm.getTotalOpenHoeDirt()".
+[13:09:39 TRACE Stardew Valley Expanded Code] Applying Harmony patch "HarmonyPatch_FarmComputerLocations": postfixing SDV method "Farm.getTotalGreenhouseCropsReadyForHarvest()".
+[13:09:39 TRACE Stardew Valley Expanded Code] Applying Harmony patch "HarmonyPatch_PiggyBank": postfixing SDV method "Object_checkForAction(Farmer, bool)".
+[13:09:39 TRACE Stardew Valley Expanded Code] Applying Harmony patch "HarmonyPatch_FixDesertBusWarp": transpiling SDV method "Desert.resetLocalState()".
+[13:09:39 TRACE Stardew Valley Expanded Code] Applying Harmony patch "HarmonyPatch_DesertSecretNoteTile": prefixing SDV method "Desert.checkForBuriedItem(int, int, bool, bool, Farmer)".
+[13:09:39 TRACE Stardew Valley Expanded Code] Applying Harmony patch "HarmonyPatch_DesertFishingItems": postfixing SDV method "Desert.getFish".
+[13:09:39 TRACE Stardew Valley Expanded Code] Applying Harmony patch "HarmonyPatch_CustomGrangeJudging": prefixing SDV method "Event.initiateGrangeJudging()".
+[13:09:39 TRACE Stardew Valley Expanded Code] Applying Harmony patch "HarmonyPatch_CustomGrangeJudging": postfixing SDV method "Event.interpretGrangeResults()".
+[13:09:39 TRACE Stardew Valley Expanded Code] Applying Harmony patch "HarmonyPatch_MovieTheaterNPCs": postfixing SDV method "MovieTheater.checkAction(Location, Rectangle, Farmer)".
+[13:09:39 TRACE Stardew Valley Expanded Code] Applying Harmony patch "HarmonyPatch_MovieTheaterNPCs": transpiling SDV method "Utility.CheckForCharacterAtTile(Vector2, Farmer)".
+[13:09:39 TRACE Stardew Valley Expanded Code] Applying Harmony patch "HarmonyPatch_DestroyableBushesSVE": postfixing SDV method "Bush.isDestroyable(GameLocation, Vector2)".
+[13:09:39 TRACE Stardew Valley Expanded Code] Applying Harmony patch "HarmonyPatch_TMXLLoadMapFacingDirection": prefixing SDV method "Game1.warpFarmer(LocationRequest, int, int, int)".
+[13:09:39 TRACE Stardew Valley Expanded Code] Applying Harmony patch "HarmonyPatch_UntimedSpecialOrders": postfixing SDV method "SpecialOrders.IsTimedQuest()".
+[13:09:39 TRACE Stardew Valley Expanded Code] Applying Harmony patch "HarmonyPatch_FixCommunityShortcuts": transpiling SDV method "Forest.showCommunityUpgradeShortcuts()".
+[13:09:39 TRACE Stardew Valley Expanded Code] Applying Harmony patch "HarmonyPatch_FixCommunityShortcuts": transpiling SDV method "Beach.showCommunityUpgradeShortcuts(GameLocation, bool)".
+[13:09:40 TRACE SMAPI]    Found mod-provided API (Pathoschild.Stardew.Automate.Framework.AutomateAPI).
+[13:09:40 INFO  StardewHack] Loaded StardewHack library v7.4.0 using Harmony v2.2.2.0.
+[13:09:40 DEBUG Harvest With Scythe] Applying bytecode patches for bcmpinc.HarvestWithScythe.
+[13:09:40 TRACE Harvest With Scythe] Applying patch GameLocation_checkAction to Boolean checkAction(xTile.Dimensions.Location, xTile.Dimensions.Rectangle, StardewValley.Farmer) in StardewValley.GameLocation.
+[13:09:40 TRACE Harvest With Scythe] Applying patch Object_performToolAction to Boolean performToolAction(StardewValley.Tool) in StardewValley.Object.
+[13:09:40 TRACE Harvest With Scythe] Applying patch HoeDirt_performToolAction to Boolean performToolAction(StardewValley.Tool, Int32, Microsoft.Xna.Framework.Vector2) in StardewValley.TerrainFeatures.HoeDirt.
+[13:09:40 TRACE Harvest With Scythe] Applying patch HoeDirt_performUseAction to Boolean performUseAction(Microsoft.Xna.Framework.Vector2) in StardewValley.TerrainFeatures.HoeDirt.
+[13:09:40 TRACE Harvest With Scythe] Applying patch Crop_harvest to Boolean harvest(Int32, Int32, StardewValley.TerrainFeatures.HoeDirt, StardewValley.Characters.JunimoHarvester, Boolean) in StardewValley.Crop.
+[13:09:40 TRACE Save Backup] Already backed up today.
+[13:09:40 TRACE game] Registered trigger action handler 'spacechase0.SpaceCore_PlaySound'.
+[13:09:40 TRACE game] Registered trigger action handler 'spacechase0.SpaceCore_ShowHudMessage'.
+[13:09:40 TRACE game] Registered trigger action handler 'spacechase0.SpaceCore_PlayEvent'.
+[13:09:40 TRACE game] Registered trigger action handler 'spacechase0.SpaceCore_DamageCurrentFarmer'.
+[13:09:40 TRACE game] Registered trigger action handler 'spacechase0.SpaceCore_ApplyBuff'.
+[13:09:40 TRACE game] Registered trigger action handler 'spacechase0.SpaceCore_OpenGuidebook'.
+[13:09:40 TRACE game] Registered event command: damageFarmer
+[13:09:40 TRACE game] Registered event command: giveHat
+[13:09:40 TRACE game] Registered event command: setDating
+[13:09:40 TRACE game] Registered event command: setEngaged
+[13:09:40 TRACE game] Registered event command: totemWarpEffect
+[13:09:40 TRACE game] Registered event command: setActorScale
+[13:09:40 TRACE game] Registered event command: cycleActorColors
+[13:09:40 TRACE game] Registered event command: flash
+[13:09:40 TRACE game] Registered event command: setRaining
+[13:09:40 TRACE game] Registered event command: screenShake
+[13:09:40 TRACE game] Registered event command: setZoom
+[13:09:40 TRACE game] Registered event command: smoothZoom
+[13:09:40 TRACE game] Registered event command: switchEventFull
+[13:09:40 TRACE game] Registered event command: reSetUpCharacters
+[13:09:40 TRACE game] Registered trigger type for Data/Triggers: spacechase0.SpaceCore_OnItemUsed.
+[13:09:40 TRACE game] Registered trigger type for Data/Triggers: spacechase0.SpaceCore_OnItemEaten.
+[13:09:40 TRACE game] Registered trigger action handler 'spacechase0.SpaceCore_TriggerSpawnGroup'.
+[13:09:40 TRACE game] Registered trigger action handler 'spacechase0.SpaceCore_ClearSetPiecesFromSpawnable'.
+[13:09:41 TRACE Harvest With Scythe] Applying patch Crop_harvest to Boolean harvest(Int32, Int32, StardewValley.TerrainFeatures.HoeDirt, StardewValley.Characters.JunimoHarvester, Boolean) in StardewValley.Crop.
+[13:09:41 TRACE SpaceCore] NPC.draw: inserting mul at 36
+[13:09:41 TRACE SpaceCore] NPC.draw: inserting mul at 42
+[13:09:41 TRACE SpaceCore] NPC.draw: inserting mul at 47
+[13:09:41 TRACE SpaceCore] NPC.draw: replacing Color.White at 139
+[13:09:41 TRACE SpaceCore] NPC.draw: replacing Color.White at 277
+[13:09:41 TRACE SpaceCore] NPC.draw: inserting vec2 mul at 303
+[13:09:41 TRACE SpaceCore] NPC.draw: replacing SpriteBatch.Draw at 324
+[13:09:41 TRACE SpaceCore] NPC.DrawBreathing: replacing Color.White at 283
+[13:09:41 TRACE SpaceCore] NPC.DrawBreathing: inserting vec2 mul/add at 308
+[13:09:41 TRACE SpaceCore] NPC.DrawBreathing: replacing Draw at 329
+[13:09:41 TRACE Harvest With Scythe] Applying patch Object_performToolAction to Boolean performToolAction(StardewValley.Tool) in StardewValley.Object.
+[13:09:41 TRACE Harvest With Scythe] Applying patch Object_performToolAction to Boolean performToolAction(StardewValley.Tool) in StardewValley.Object.
+[13:09:41 TRACE SpaceCore] Found crafting recipe constructor in Void layoutRecipes(System.Collections.Generic.List`1[System.String])!
+[13:09:41 TRACE SpaceCore] Found first ldloc.s for ClickableTextureComponent in Void layoutRecipes(System.Collections.Generic.List`1[System.String]); storing potential override w/ recipeLocal=StardewValley.CraftingRecipe (9)
+[13:09:41 TRACE SpaceCore] Found crafting recipe constructor in System.String createDescription(System.String)!
+[13:09:42 TRACE SMAPI]    Found mod-provided API (SpaceCore.Api).
+[13:09:42 TRACE SMAPI]    Found mod-provided API (ExperienceBars.Api).
+[13:09:42 TRACE Tractor Mod] Requested cache invalidation for 'Data/Buildings'.
+[13:09:42 TRACE SMAPI] Invalidated 0 cache entries.
+[13:09:42 TRACE Tractor Mod] Requested cache invalidation for 'Data/AudioChanges'.
+[13:09:42 TRACE SMAPI] Invalidated 0 cache entries.
+[13:09:42 TRACE Ridgeside Village (SMAPI component)] Number of dependencies to check: 5
+[13:09:42 TRACE Ridgeside Village (SMAPI component)] InstallationChecker checking SMAPI...
+[13:09:42 TRACE Ridgeside Village (SMAPI component)] SMAPI is out of date: False
+[13:09:42 TRACE Ridgeside Village (SMAPI component)] SMAPI is loaded and up to date.
+[13:09:42 TRACE Ridgeside Village (SMAPI component)] InstallationChecker checking Content Patcher...
+[13:09:42 TRACE Ridgeside Village (SMAPI component)] Content Patcher: Local version (2.4.4) is older than required version (2.0.0): False
+[13:09:42 TRACE Ridgeside Village (SMAPI component)] Content Patcher is loaded and up to date.
+[13:09:42 TRACE Ridgeside Village (SMAPI component)] InstallationChecker checking SpaceCore...
+[13:09:42 TRACE Ridgeside Village (SMAPI component)] SpaceCore: Local version (1.27.0) is older than required version (1.19.0): False
+[13:09:42 TRACE Ridgeside Village (SMAPI component)] SpaceCore is loaded and up to date.
+[13:09:42 TRACE Ridgeside Village (SMAPI component)] InstallationChecker checking Custom Companions...
+[13:09:42 TRACE Ridgeside Village (SMAPI component)] Custom Companions: Local version (5.0.0) is older than required version (4.1.1): False
+[13:09:42 TRACE Ridgeside Village (SMAPI component)] Custom Companions is loaded and up to date.
+[13:09:42 TRACE Ridgeside Village (SMAPI component)] InstallationChecker checking Farm Type Manager (FTM)...
+[13:09:42 TRACE Ridgeside Village (SMAPI component)] Farm Type Manager (FTM): Local version (1.24.0) is older than required version (1.17.0): False
+[13:09:42 TRACE Ridgeside Village (SMAPI component)] Farm Type Manager (FTM) is loaded and up to date.
+[13:09:42 TRACE Ridgeside Village (SMAPI component)] Number of missing mods: 0
+[13:09:42 TRACE Ridgeside Village (SMAPI component)] Number of out of date mods: 0
+[13:09:42 TRACE Ridgeside Village (SMAPI component)] Applying Harmony Patch "Animations".
+[13:09:42 TRACE Ridgeside Village (SMAPI component)] Applying Harmony Patch "Backgrounds".
+[13:09:42 TRACE Ridgeside Village (SMAPI component)] Applying Harmony Patch "Dateables.
+[13:09:42 TRACE Ridgeside Village (SMAPI component)] Applying Harmony Patch "GameMenu_ChangeTab_PostFix.
+[13:09:42 TRACE Ridgeside Village (SMAPI component)] Applying Harmony Patch "Rings.
+[13:09:42 TRACE Ridgeside Village (SMAPI component)] Applying Harmony Patch from "SummitFarm".
+[13:09:42 TRACE Ridgeside Village (SMAPI component)] Applying Harmony Patch from "TreasureItems".
+[13:09:42 TRACE Ridgeside Village (SMAPI component)] Applying Harmony Patch "UntimedSO" prefixing SDV method.
+[13:09:42 TRACE Ridgeside Village (SMAPI component)] Not patching GetProtraitForRequester because platform is Linux
+[13:09:43 TRACE Ridgeside Village (SMAPI component)] Applying Harmony Patch "Music".
+[13:09:43 TRACE SMAPI]    Found mod-provided API (CustomCompanions.Framework.Interfaces.API.Api).
+[13:09:43 DEBUG Bigger Backpack] Applying bytecode patches for spacechase0.BiggerBackpack.
+[13:09:43 TRACE Bigger Backpack] Applying patch JunimoNoteMenu_setUpMenu to Void setUpMenu(Int32, System.Collections.Generic.Dictionary`2[System.Int32,System.Boolean[]]) in StardewValley.Menus.JunimoNoteMenu.
+[13:09:43 TRACE Bigger Backpack] Applying patch ShippingMenu_ctor to Void .ctor(highlightThisItem, Boolean, Boolean, Int32, Int32, Int32, StardewValley.Menus.ItemExitBehavior, Boolean) in StardewValley.Menus.MenuWithInventory.
+[13:09:43 TRACE Bigger Backpack] Applying patch ShopMenu_drawCurrency to Void drawCurrency(Microsoft.Xna.Framework.Graphics.SpriteBatch) in StardewValley.Menus.ShopMenu.
+[13:09:43 TRACE Bigger Backpack] Applying patch ShopMenu_draw to Void draw(Microsoft.Xna.Framework.Graphics.SpriteBatch) in StardewValley.Menus.ShopMenu.
+[13:09:43 TRACE Bigger Backpack] Applying patch ShopMenu_Initialize to Void Initialize(Int32, OnPurchaseDelegate, System.Func`2[StardewValley.ISalable,System.Boolean], Boolean) in StardewValley.Menus.ShopMenu.
+[13:09:43 TRACE Bigger Backpack] Applying patch CraftingPage_ctor to Void .ctor(Int32, Int32, Int32, Int32, Boolean, Boolean, System.Collections.Generic.List`1[StardewValley.Inventories.IInventory]) in StardewValley.Menus.CraftingPage.
+[13:09:43 TRACE Bigger Backpack] Applying patch InventoryPage_draw to Void draw(Microsoft.Xna.Framework.Graphics.SpriteBatch) in StardewValley.Menus.InventoryPage.
+[13:09:43 TRACE Bigger Backpack] Applying patch InventoryPage_ctor to Void .ctor(Int32, Int32, Int32, Int32) in StardewValley.Menus.InventoryPage.
+[13:09:43 TRACE Bigger Backpack] Applying patch GameLocation_answerDialogueAction to Boolean answerDialogueAction(System.String, System.String[]) in StardewValley.GameLocation.
+[13:09:43 TRACE Bigger Backpack] Applying patch GameLocation_performAction to Boolean performAction(System.String[], StardewValley.Farmer, xTile.Dimensions.Location) in StardewValley.GameLocation.
+[13:09:43 TRACE Bigger Backpack] Applying patch SpecialItem_getTemporarySpriteForHoldingUp to StardewValley.TemporaryAnimatedSprite getTemporarySpriteForHoldingUp(Microsoft.Xna.Framework.Vector2) in StardewValley.Objects.SpecialItem.
+[13:09:43 TRACE Bigger Backpack] Applying patch SeedShop_draw to Void draw(Microsoft.Xna.Framework.Graphics.SpriteBatch) in StardewValley.Locations.SeedShop.
+[13:09:43 DEBUG SMAPI] Mods loaded and ready!
+[13:09:43 TRACE SMAPI] Checking for updates...
+[13:09:43 TRACE SMAPI] Tractor Mod edited Data/Buildings.
+[13:09:44 TRACE SMAPI] SpaceCore loaded asset 'spacechase0.SpaceCore/Dungeons'.
+[13:09:44 TRACE SMAPI] Tractor Mod edited Data/AudioChanges.
+[13:09:44 TRACE game] setGameMode( 'titleScreenGameMode (0)' )
+[13:09:45 ALERT SMAPI] You can update SMAPI to 4.1.9: https://smapi.io
+[13:09:45 TRACE SMAPI]    Checking for updates to 53 mods...
+[13:09:46 TRACE SMAPI] Got update-check errors for some mods:
+   Frontier Farm Forage Locations: The value '???' isn't a valid Nexus mod ID, must be an integer ID.
+   Ridgeside Village (Custom Companions component): The value '-1' isn't a valid Nexus mod ID, must be an integer ID.
+   Ridgeside Village (Farm Type Manager component): The value '-1' isn't a valid Nexus mod ID, must be an integer ID.
+   Ridgeside Village (SMAPI component): The value '-1' isn't a valid Nexus mod ID, must be an integer ID.
+   Stardew Valley Expanded: The value '???' isn't a valid Nexus mod ID, must be an integer ID.
+   Stardew Valley Expanded Code: The value '???' isn't a valid Nexus mod ID, must be an integer ID.
+   Stardew Valley Expanded Farm Type Manager: The value '???' isn't a valid Nexus mod ID, must be an integer ID.
+
+[13:09:46 ALERT SMAPI] You can update 3 mods:
+[13:09:46 ALERT SMAPI]    Expanded Preconditions Utility 1.0.2-alpha.20240225: https://www.nexusmods.com/stardewvalley/mods/6529 (you have 1.0.1)
+[13:09:46 ALERT SMAPI]    LovedLabels 2.2.0: https://www.nexusmods.com/stardewvalley/mods/279 (you have 2.1.0)
+[13:09:46 ALERT SMAPI]    Show Birthdays 1.3.1-unofficial.2-asuleath: https://smapi.io/mods#show-birthdays (you have 1.3.0)
